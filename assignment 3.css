@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-image: url(/css/5Feb/assignment\ 3\ body\ pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* header --------------------------------------------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+}
+.right{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.right img{
+    width: 100px;
+
+}
+
+nav ul{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: aliceblue;
+}
+
+.big {
+    font-size: 40px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+header button{
+    color: aliceblue;
+    background-color: rgb(208, 0, 163);
+    padding: 5px 12px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+header button:hover{
+    background-color: aliceblue;
+    font-style: italic;
+    color: black;
+}
+
+ul li a:hover{
+    color: green;
+    font-style: italic;
+}
+
+/* main */
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+main h1{
+    color: aliceblue;
+    font-size: 70px;
+    font-weight: 1000;
+}
+main p{
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+main button{
+    background-color: rgb(208, 0, 163);
+    border: 1px solid rgb(208, 0, 163);
+    padding: 11px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: aliceblue;
+    display: flex;
+    position: absolute;
+    margin-top: 320px;
+    font-size: 15px;
+}
+
+main button:hover{
+    background-color: aliceblue;
+    color: black;
+    font-style: italic;
+
+}
